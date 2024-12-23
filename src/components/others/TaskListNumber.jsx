@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TaskList = () => {
+const TaskListNumber = () => {
   return (
     <div className='flex justify-between gap-5 screen'>
       <div className=' w-[45%] bg-red-400 py-6 px-10 rounded-xl mt-10'>
@@ -23,4 +23,4 @@ const TaskList = () => {
   )
 }
 
-export default TaskList
+export default TaskListNumber

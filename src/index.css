@@ -9,3 +9,15 @@ body {
 @tailwind components;
 @tailwind utilities;
 
+/* #tasklist::-webkit-scrollbar{
+  display: none;
+  overflow: scroll;
+} */
+
+#tasklist::-webkit-scrollbar{
+  display: none;
+}
+#tasklist {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
